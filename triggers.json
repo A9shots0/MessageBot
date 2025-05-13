@@ -1,0 +1,22 @@
+{
+  "triggers": [
+    {
+      "id": "help",
+      "pattern": "\\b(help|need help|how|where|what)\\b",
+      "type": "regex",
+      "response": "Hey there! 👋 Here's some help information about our server:\n\n1. Check #rules for server guidelines\n2. Use #general for casual chat\n3. Ask moderators if you need more help\n\nLet me know if you need anything else!"
+    },
+    {
+      "id": "join",
+      "pattern": "join",
+      "type": "fuzzy",
+      "response": "Welcome! To join our activities:\n\n1. Read the #welcome channel\n2. Pick your roles in #role-select\n3. Introduce yourself in #introductions\n\nHave fun! 🎉"
+    },
+    {
+      "id": "rules",
+      "pattern": "(rules|guidelines)",
+      "type": "regex",
+      "response": "📜 Here are our main rules:\n\n1. Be respectful to everyone\n2. No spam or self-promotion\n3. Keep content in appropriate channels\n4. Follow moderator instructions\n\nCheck #rules channel for the complete list!"
+    }
+  ]
+} 
